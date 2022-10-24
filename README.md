@@ -7,16 +7,14 @@
 <p align="center"><b>This is the snap for cloudflared</b>, <i>the command-line client for Cloudflare Tunnel and Cloudflare Access</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
 distributions.</p>
 
-<!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
-<a href="https://snapcraft.io/my-snap-name">
-  <img alt="enpass" src="https://snapcraft.io/my-snap-name/badge.svg" />
+<a href="https://snapcraft.io/piperswe-cloudflared">
+  <img alt="enpass" src="https://snapcraft.io/piperswe-cloudflared/badge.svg" />
 </a>
-<a href="https://snapcraft.io/my-snap-name">
-  <img alt="enpass" src="https://snapcraft.io/my-snap-name/trending.svg?name=0" />
+<a href="https://snapcraft.io/piperswe-cloudflared">
+  <img alt="enpass" src="https://snapcraft.io/piperswe-cloudflared/trending.svg?name=0" />
 </a>
 </p>
--->
 
 <!-- Uncomment and modify this when you have a screenshot
 ![my-snap-name](screenshot.png?raw=true "my-snap-name")
@@ -28,9 +26,7 @@ distributions.</p>
 
     sudo snap install piperswe-cloudflared
 
-<!-- Uncomment and modify this when your snap is available on the store
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/my-snap-name)
--->
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/piperswe-cloudflared)
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
@@ -50,9 +46,9 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/snapcrafters-reboot/24625))
   - [x] Register the snap in the store, ~~**using the preferred upstream name**~~ upstream name is taken, I'll just keep this as piperswe-cloudflared
   - [ ] Add a screenshot to this `README.md`
   - [x] Add install instructions to this `README.md`
-  - [ ] Update snap store metadata, icons and screenshots
-  - [ ] Publish the confined snap in the Snap store beta channel
-  - [ ] Update the install instructions in this `README.md`
+  - [x] Update snap store metadata, ~~icons and screenshots~~
+  - [x] Publish the confined snap in the Snap store beta channel
+  - [x] Update the install instructions in this `README.md`
   - [ ] Post a call for testing in the Snapcraft Forum ["Snapcrafters" category](https://forum.snapcraft.io/c/snapcrafters/23) - [link]()
   - [ ] Add the Snapcraft store account (snap-advocacy@canonical.com) as a collaborator to your snap in the [Dashboard](https://dashboard.snapcraft.io) and ask a [Snapcrafters admin](https://github.com/orgs/snapcrafters/people?query=%20role%3Aowner) to accept this request
   - [ ] Fix all important issues found during testing
